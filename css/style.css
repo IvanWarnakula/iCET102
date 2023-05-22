@@ -9,12 +9,6 @@ li {
                                  
       }
 
-body {
-  background-image: url("https://chemaxon.com/hs-fs/hubfs/Spot%20images/Spot%20Image%2016.png?width=1893&height=1537&name=Spot%20Image%2016.png");
-  background-size: 250ch;
-  background-position: 250ch;
-}
-
 h1 {
   text-align: center;
   margin-top: 15px;
@@ -80,5 +74,5 @@ p {
   padding-left: 2%;
   font-style: italic;
   
-
   }
+  

@@ -2,69 +2,34 @@
 <html>
   <head>
     <title>Course Registration</title>
-    </head>  <link rel="stylesheet" href="css/style.css"><body>
-     <!-- nav container -->
-     <nav class="nav-container">
-      
-      <!-- left nav -->
-      <ul class="left side">
-          <li><a href="">Search</a></li>
-          <li><a href="">About</a></li>
-          <!-- right nav -->
-          <li><a href="">Home</a></li>
-        <li><a href="">News</a></li>
-        <li><a href="">Contact</a></li>
-    </ul>
-      </ul>
-  </nav>
-    <h1>ICET Student Registration Form</h1>
-    <h2> 223 A 1/2 , Galle Road , <br> Panadura, <br> Sri Lanka.</p></h3>
-      <form>
-      <label for="name">First Name:</label>
-      <input type="text" id="name" name="name" required />
-      <label for="name">Last Name:</label>
-      <input type="text" id="name" name="name" required />
-      <label for="dob">Date Of Birth:</label>
-      <input type="date" id="dob" name="dob" required />
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email" required />
-      <label for="email">Phone Number:</label>
-      <input type="text" id="Phone" name="Phone" required />
-      <label for="gender">Gender:</label>
-  <select name="gender">
-      <option value="">Please select one…</option>
-      <option value="female">Female</option>
-      <option value="male">Male</option>
-      <option value="non-binary">Non-Binary</option>
-      <option value="other">Other</option>
-      <option value="Prefer not to answer">Perfer not to Answer</option>
-  </select>
-
-      <label for="course">Course:</label>
-      <select id="course" name="course">
-        <option value="">Please select one...</option>
-        <option value="web-design">Web Design</option>
-        <option value="programming">Programming</option>
-        <option value="database">Database</option>
-        <option value="networking">Networking</option>
-        <option value="security">Security</option>
-      </select>
-        <label for="course">Education:</label>
-    <select class="form-control dropdown" id="education" name="education">
-    <option value="" selected="selected" disabled="disabled">Please select one</option>
-    <option value="No formal education">No formal education</option>
-    <option value="Primary education">Primary education</option>
-    <option value="Secondary education">Secondary education or high school</option>
-    <option value="GED">GED</option>
-    <option value="Vocational qualification">Vocational qualification</option>
-    <option value="Bachelor's degree">Bachelor's degree</option>
-    <option value="Master's degree">Master's degree</option>
-    <option value="Doctorate or higher">Doctorate or higher</option>
-    </select>
-    <input type="submit" value="Register" />    
-    </form>
-    <div class="alert">
-      <p>By clicking Register button, you agree to our terms, privacy policies  <br> and Cookies policy. You may receive a SMS notification from us <br> and can opt out any time.</p>
-    </div>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    </head>  <link rel="stylesheet" href="css/style.css">
+    <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   
      </body>
 </html>
