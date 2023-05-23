@@ -1,36 +1,63 @@
-.navbar
-{
-  position: relative;
-  width:auto; 
- }
-
- .navbar-brand-c{
-    position: inherit;
-    font-size: 90%;
-    width: 150px;
+.container-cus{
+  background-color: rgb(81, 220, 12);
+  font-size: large;
+  margin-right: auto;
+  font-style: normal;
+  padding: .5%;  
+  margin-left: .2ch;
 }
-.navbar-brand-s{
+ .navbar-brand-a{
   font-size: 100%;
-  width: 150px;
+  width: 200px;
 }
-.navbar-brand-a{
+.navbar-brand-b{
   font-size: 100%;
-  width: 150px;
+  width: 200px;
 }
 .navbar-brand-c{
   font-size: 100%;
-  width: 150px;
+  width: 200px;
 }
-.navbar-brand-o{
+.navbar-brand-d{
   font-size: 100%;
-  width: 150px;
+  width: 200px;
 }
 .carousal{
-  width: 50%;
+  width: 35%;
+  height: 60ch;
   margin-left: 2%;
   margin-top: 25px;
   margin-bottom: 30px;
+
  }
 .para{
 float: right;
   }
+  .child {
+    width: 40%;
+    height: 425px;
+    padding-top: 30px;
+    border: 3px solid rgb(32, 192, 11);
+    margin: 15em auto;
+    margin-right: 4%;
+    margin-top: -520px;
+  }
+  .button-cus{
+    color: rgb(7, 7, 7);
+    
+  }
+  .container-custwo{
+  margin-top: -150px;
+  margin-left: 1%;
+  width: 60%;
+  height: ch;
+  }
+  .row-cust{
+   width: 1800px;
+   height: 1200%; 
+  }
+  .col-3{
+  column-width: 500px;
+  columns: hi;
+  }
+ 
