@@ -1,4 +1,36 @@
 .navbar
 {
-  
+  position: relative;
+  width:auto; 
+ }
+
+ .navbar-brand-c{
+    position: inherit;
+    font-size: 90%;
+    width: 150px;
 }
+.navbar-brand-s{
+  font-size: 100%;
+  width: 150px;
+}
+.navbar-brand-a{
+  font-size: 100%;
+  width: 150px;
+}
+.navbar-brand-c{
+  font-size: 100%;
+  width: 150px;
+}
+.navbar-brand-o{
+  font-size: 100%;
+  width: 150px;
+}
+.carousal{
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 25px;
+  margin-bottom: 30px;
+ }
+.para{
+float: right;
+  }
