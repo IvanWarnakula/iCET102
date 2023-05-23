@@ -24,7 +24,6 @@
 }
 .carousal{
   width: 35%;
-  height: 60ch;
   margin-left: 2%;
   margin-top: 25px;
   margin-bottom: 30px;
@@ -43,21 +42,18 @@ float: right;
     margin-top: -520px;
   }
   .button-cus{
-    color: rgb(7, 7, 7);
-    
+    color: rgb(7, 7, 7);    
   }
   .container-custwo{
   margin-top: -150px;
   margin-left: 1%;
   width: 60%;
-  height: ch;
-  }
+    }
   .row-cust{
    width: 1800px;
-   height: 1200%; 
+   height: 12%; 
   }
   .col-3{
-  column-width: 500px;
-  columns: hi;
+  column-width: 500px;  
   }
  
