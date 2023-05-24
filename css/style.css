@@ -25,7 +25,7 @@
 .carousal{
   width: 25%;
   margin-left: 2%;
-  margin-top: 25px;
+  margin-top: 100px;
   margin-bottom: 30px;
 
  }
@@ -33,12 +33,14 @@
 justify-content: right;
   }
   .child {
+   justify-self: auto;
+    font-size: 150%;
     width: 40%;
     height: 425px;
-    padding-top: 30px;
+    padding-top: 1px;
     margin: 15em auto;
     margin-right: 4%;
-    margin-top: -520px;
+    margin-top: -500px;
   }
   .button-cus{
     color: rgb(7, 7, 7);    
@@ -53,7 +55,7 @@ justify-content: right;
    height: 12%; 
    padding-right: 40%;
   }
-  .col-2{
-    margin-right: 8%;
+  .card boader-box{
+    margin-right: 100%;
   
   }
