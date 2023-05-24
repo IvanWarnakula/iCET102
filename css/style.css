@@ -1,9 +1,19 @@
-.container-cus{
-  font-size: 150%;
-  margin-right: auto;
+.container-cus{ 
+  font-size: 150%; 
   font-style: normal;
-  padding: .6%;  
+  padding-top: 3%;
   margin-left: .2ch;
+}
+.container-cusone{
+  background-color: rgb(20, 193, 227);
+  font-size: 150%; 
+  font-style: normal;
+}
+.carousel-cus{
+  padding-top: 3%;
+  width: 35%;
+  margin-left: 3%;
+
 }
  .navbar-brand-a{
   font-size: 100%;
@@ -22,24 +32,27 @@
   width: 200px;
 }
   .button-cus{
-    color: rgb(227, 17, 62);    
+    color: rgb(12, 12, 12);    
 }
 .search-cus{
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 } 
   body{
-    background: #83aed6;
+    background: #7698ba;
   }
-
   .card-cus {
   position: relative;
-  margin-top: 175%; /* Added */ 
+  margin-top: 120%; /* Added */ 
   width: 20rem; 
   height: .12rem;
 }
-.col{ 
-  margin-left: auto;
-  margin-right: auto;
+.col{  
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.para-container{
+margin-left: 20in;
+padding-top: -5in;
 }
   
