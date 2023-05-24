@@ -55,7 +55,9 @@ justify-content: right;
    height: 12%; 
    padding-right: 40%;
   }
-  .card boader-box{
-    margin-right: 100%;
+  .card{
+   width: calc(50%-20px);
+   margin: 20px;
+   box-sizing: border-box;
   
   }
