@@ -46,17 +46,17 @@ justify-content: right;
     color: rgb(7, 7, 7);    
   }
   .container-custwo{
-  margin-top: -110px;
-  margin-left: 1.5%;
-  width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px; 
     }
   .row-cust{
    width: 1800px;
    height: 12%; 
    padding-right: 40%;
   }
-  .card{
-   width: calc(50%-20px);
+  .card-cust{
+   width: calc(40%-20px);
    margin: 20px;
    box-sizing: border-box;
   
