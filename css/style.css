@@ -38,7 +38,8 @@
   width: 20rem; 
   height: .12rem;
 }
-.col{
+.col{ 
   margin-left: auto;
+  margin-right: auto;
 }
   
