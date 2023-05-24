@@ -3,6 +3,7 @@
   font-style: normal;
   padding-top: 3%;
   margin-left: .2ch;
+
 }
 .container-cusone{
   background-color: rgb(20, 193, 227);
@@ -13,6 +14,7 @@
   padding-top: 3%;
   width: 35%;
   margin-left: 3%;
+  width: 35%;
 
 }
  .navbar-brand-a{
@@ -43,11 +45,18 @@
   }
   .card-cus {
   position: relative;
-  margin-top: 120%; /* Added */ 
+  margin-top: .001in;
   width: 20rem; 
   height: .12rem;
 }
 .col{  
   margin-left: 110px;
   margin-right: 110px;
+}
+.paragraph {
+margin-left: 15in;
+width: 1000px;
+margin-top: -66%;
+font-size: 150%;
+font color: #333;
 }
