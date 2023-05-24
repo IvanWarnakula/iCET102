@@ -51,13 +51,3 @@
   margin-left: 110px;
   margin-right: 110px;
 }
-
-.domov{
-  width: 100%;
-  display: flex;
-  position: sticky;
-}
-
-.Text1{
-  width: 50%;
- text-align: end;
