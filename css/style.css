@@ -52,7 +52,8 @@
   margin-right: 110px;
 }
 .para-container{
-margin-left: 20in;
+  width: 50%;
+  margin-left: 1em;
 display: flex;
 align-items: center;
 
