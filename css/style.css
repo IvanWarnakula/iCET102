@@ -43,7 +43,7 @@ justify-content: right;
     margin-top: -500px;
   }
   .button-cus{
-    color: rgb(7, 7, 7);    
+    color: rgba(51, 5, 15, 0.185);    
   }
   .container-custwo{
     display: flex;
@@ -57,7 +57,7 @@ justify-content: right;
   }
   .card-cust{
    width: calc(40%-20px);
-   margin: 20px;
+   margin: 10px;
    box-sizing: border-box;
   
   }
