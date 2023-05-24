@@ -1,9 +1,9 @@
 .container-cus{
-  background-color: rgba(246, 122, 6, 0.415);
-  font-size: large;
+  background-color: rgba(72, 130, 230, 0.415);
+  font-size: 150%;
   margin-right: auto;
   font-style: normal;
-  padding: .5%;  
+  padding: .6%;  
   margin-left: .2ch;
 }
  .navbar-brand-a{
@@ -24,7 +24,13 @@
 }
   .button-cus{
     color: rgb(227, 17, 62);    
-  }
+}
+.search-cus{
+  padding-top: 8%;
+  padding-bottom: 8%;
+pa
+margin-right: %;
+}
   
   body{
     background: #a9cdee;
