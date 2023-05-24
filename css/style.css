@@ -1,63 +1,6 @@
-.container-cus{
-  background-color: rgba(76, 55, 128, 0.415);
-  font-size: large;
-  margin-right: auto;
-  font-style: normal;
-  padding: .5%;  
-  margin-left: .2ch;
-}
- .navbar-brand-a{
-  font-size: 100%;
-  width: 200px;
-}
-.navbar-brand-b{
-  font-size: 100%;
-  width: 200px;
-}
-.navbar-brand-c{
-  font-size: 100%;
-  width: 200px;
-}
-.navbar-brand-d{
-  font-size: 100%;
-  width: 200px;
-}
-.carousal{
-  width: 25%;
-  margin-left: 2%;
-  margin-top: 100px;
-  margin-bottom: 30px;
-
- }
-.para{
-justify-content: right;
+ .container{
+    height: auto;
+    width: auto;
+    background-color: rgb(135, 250, 148);
   }
-  .child {
-   justify-self: auto;
-    font-size: 150%;
-    width: 40%;
-    height: 425px;
-    padding-top: 1px;
-    margin: 15em auto;
-    margin-right: 4%;
-    margin-top: -500px;
-  }
-  .button-cus{
-    color: rgba(51, 5, 15, 0.185);    
-  }
-  .container-custwo{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px; 
-    }
-  .row-cust{
-   width: 1800px;
-   height: 12%; 
-   padding-right: 40%;
-  }
-  .card-cust{
-   width: calc(40%-20px);
-   margin: 10px;
-   box-sizing: border-box;
   
-  }
