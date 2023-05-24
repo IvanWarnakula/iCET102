@@ -53,6 +53,9 @@
 }
 .para-container{
 margin-left: 20in;
-padding-top: -5in;
+display: flex;
+align-items: center;
+
+
 }
   
