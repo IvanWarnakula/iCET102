@@ -51,20 +51,14 @@
   margin-left: 110px;
   margin-right: 110px;
 }
-.Text1{
-width: 50%;
-align-items: center;
-}
-#domov{
+
+.domov{
   width: 100%;
   display: flex;
   position: sticky;
 }
-#Slider {
-  width: 50%;
-  /* custom styling for your carousel */
-}
-#text1{
+
+.Text1{
   width: 50%;
   text-align: center;
 }
