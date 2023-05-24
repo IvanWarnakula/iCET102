@@ -55,4 +55,16 @@
 width: 50%;
 align-items: center;
 }
-  
+#domov{
+  width: 100%;
+  display: flex;
+  position: sticky;
+}
+#Slider {
+  width: 50%;
+  /* custom styling for your carousel */
+}
+#text1{
+  width: 50%;
+  text-align: center;
+}
