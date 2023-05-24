@@ -1,5 +1,5 @@
 .container-cus{
-  background-color: rgb(81, 220, 12);
+  background-color: rgba(76, 55, 128, 0.415);
   font-size: large;
   margin-right: auto;
   font-style: normal;
@@ -23,14 +23,14 @@
   width: 200px;
 }
 .carousal{
-  width: 35%;
+  width: 25%;
   margin-left: 2%;
   margin-top: 25px;
   margin-bottom: 30px;
 
  }
 .para{
-float: right;
+justify-content: right;
   }
   .child {
     width: 40%;
@@ -46,14 +46,12 @@ float: right;
   }
   .container-custwo{
   margin-top: -150px;
-  margin-left: 1%;
-  width: 60%;
+  margin-left: .5%;
+  width: 200%;
     }
   .row-cust{
    width: 1800px;
    height: 12%; 
+   padding-right: 40%;
   }
-  .col-3{
-  column-width: 500px;  
-  }
- 
+  
