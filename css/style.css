@@ -1,5 +1,4 @@
 .container-cus{
-  background-color: rgba(72, 130, 230, 0.415);
   font-size: 150%;
   margin-right: auto;
   font-style: normal;
@@ -30,12 +29,16 @@
   padding-bottom: 8%;
 } 
   body{
-    background: #a9cdee;
+    background: #83aed6;
   }
 
-  .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+  .card-cus {
+  position: relative;
+  margin-top: 175%; /* Added */ 
+  width: 20rem; 
+  height: .12rem;
+}
+.col{
+  margin-left: auto;
 }
   
