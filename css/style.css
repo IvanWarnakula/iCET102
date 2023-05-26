@@ -13,9 +13,7 @@
 .carousel-cus{
   padding-top: 3%;
   width: 35%;
-  margin-left: 3%;
-  width: 35%;
-
+  margin-left: 3%;  
 }
  .navbar-brand-a{
   font-size: 100%;
@@ -58,4 +56,37 @@ margin-left: 15in;
 width: 1000px;
 margin-top: -66%;
 font-size: 150%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card {
+  width: 150px;
+  margin: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 16px;
 }
