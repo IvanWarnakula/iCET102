@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS Multiplication Table</h1> 
+       <!-- add two text boxes for user input -->
+<label for="row">Enter the row number:</label>
+<input type="text" id="row" name="row"><br><br>
+<label for="col">Enter the column number:</label>
+<input type="text" id="col" name="col"><br><br>
+    <script>
+        // get the row and column numbers from user input
+var row = prompt("Enter the row number:");
+var col = prompt("Enter the column number:");
+
+// create a table element
+var table = document.createElement("table");
+table.setAttribute("border", "12");
+
+// loop through the rows
+for (var i = 0; i <= row; i++) {
+  // create a table row element
+  var tr = document.createElement("tr");
+  
+  // loop through the columns
+  for (var j = 0; j <= col; j++) {
+    // create a table cell element
+    var td = document.createElement("td");
+    
+    // if it is the first row or column, display the index
+    if (i == 0 || j == 0) {
+      td.textContent = i == 0 ? j : i;
+    }
+    // otherwise, display the product of the indices
+    else {
+      td.textContent = i * j;
+    }
+    
+    // append the cell to the row
+    tr.appendChild(td);
+  }
+  
+  // append the row to the table
+  table.appendChild(tr);
+}
+
+// append the table to the body
+document.body.appendChild(table);
+    </script>
+ 
+
+</body>
+</html>
