@@ -9,3 +9,11 @@ console.log(name+" is My Name");
  function print(){
     console.log("Print called..");
  }
+
+ // function calling statement
+ print();
+
+ function savePost(){
+    var fullName =document.getElementById("fullname").value;
+    console.log(fullName);
+ }
