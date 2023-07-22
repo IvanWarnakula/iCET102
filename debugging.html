@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample JavaScript Debug</title>
+  </head>
+  <body>
+    <h1>Smaple JavaScript De-Bugging</h1>
+    <p>Evaluate button click here</p>
+    <button id="MyBtn">Click me</button>
+    <script>
+      // Aquiaring Button Reference myBtn
+      let btnRef = document.getElementById("MyBtn");
+
+      // Add click even listner to My Btn
+      btnRef.addEventListener("click", function () {
+        let num1 = 5;
+        let num2 = 10;
+        let sum = num1 + num2;
+        let multy = num1 * num2;
+        alert(sum);
+      });
+
+      console.log(btnRef);
+    </script>
+  </body>
+</html>
